@@ -42,9 +42,21 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+# Project Dependencies
 
-Join our community of developers creating universal apps.
+## expo-dev-client
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [expo-dev-client](https://docs.expo.dev/versions/latest/sdk/dev-client/)
+- Install: `bunx expo install expo-dev-client`
+
+## nativewind
+
+- [Quick Start Guide](https://www.nativewind.dev/quick-starts/expo)
+- Install:
+- `bun install nativewind react-native-reanimated@~3.17.4 react-native-safe-area-context@5.4.0`
+- `bun install --dev tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11`
+
+## Steps to run the first time
+
+- `bunx expo prebuild` first build for android and ios
+- `bunx expo run:ios` first build only for ios
